@@ -3,6 +3,12 @@
   --background-color: ;
 }
 
+.body {
+  position: relative;
+  width: 1440px;
+  height: 2592px;
+  background: #fff;
+}
 .list {
   list-style: none;
 }

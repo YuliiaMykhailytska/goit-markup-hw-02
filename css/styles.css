@@ -6,10 +6,8 @@
 .list {
   list-style: none;
 }
-
 .link {
-  list-style: none;
-}
+text-decoration: none;}
 
 .main-header {
 }

@@ -10,7 +10,6 @@
   height: 2592px;
   background: #fff;
   color: #434455
-  
 
 }
 .list {
@@ -24,28 +23,46 @@
 }
 .main-nav {
 }
-.link {
-}
-.logo-link {
-  font-family: "Raleway";
+
+.main-logo-link {
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   color: #4d5ae5;
   width: 44px;
   height: 21px;
+  letter-spacing: 0.03em
+  text-transform: uppercase;
 }
-.second-logo-link {
-  font-family: "Raleway";
+
+.head-logo-link {
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   color: #2e2f42;
   width: 71px;
   height: 21px;
+  letter-spacing: 0.03em
+  text-transform: uppercase;
 }
+
+.footer-logo-link {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #F4F4FD;
+  width: 71px;
+  height: 21px;
+  letter-spacing: 0.03em
+  text-transform: uppercase;
+}
+
 .menu {
 }
 .list {

@@ -7,7 +7,8 @@
   list-style: none;
 }
 .link {
-text-decoration: none;}
+  text-decoration: none;
+}
 
 .main-header {
 }
@@ -16,16 +17,65 @@ text-decoration: none;}
 .link {
 }
 .logo-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4d5ae5;
+  width: 44px;
+  height: 21px;
+}
+.second-logo-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2e2f42;
+  width: 71px;
+  height: 21px;
 }
 .menu {
 }
 .list {
 }
 .menu-item {
+  width: 67px;
+  height: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .menu-link {
 }
 .contact-mail {
+  width: 153px;
+  height: 24px;
+  left: 940px;
+  top: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .contact-phone-number {
+  width: 151px;
+  height: 24px;
+  left: 1133px;
+  top: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
 }

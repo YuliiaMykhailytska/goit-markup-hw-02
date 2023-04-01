@@ -6,6 +6,7 @@
   --header-color: #fff;
   --second-header-color: #2e2f42;
   --main-text-color: #434455;
+  --contact-color: #434455;
 }
 
 .body {
@@ -69,6 +70,10 @@
   color: var(--head-logo-color);
 }
 
+.address {
+  font-style: normal;
+}
+
 .contact-mail {
   width: 153px;
   height: 24px;
@@ -79,7 +84,7 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--contact-color);
 }
 .contact-phone-number {
   width: 151px;
@@ -91,5 +96,15 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--contact-color);
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+  color: #404bbf;
+}
+
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+  color: #404bbf;
 }

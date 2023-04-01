@@ -74,8 +74,7 @@
   font-style: normal;
 }
 
-.contact-mail,
-.contact-phone-number {
+.contact {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -84,12 +83,7 @@
   color: var(--contact-color);
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
-  color: #404bbf;
-}
-
-.contact-phone-number:hover,
-.contact-phone-number:focus {
+.contact:hover,
+.contact:focus {
   color: #404bbf;
 }

@@ -7,9 +7,11 @@
   --second-header-color: #2e2f42;
   --main-text-color: #434455;
   --contact-color: #434455;
+  --font-family-roboto: "Roboto", sans-serif;
+  --font-family-raleway: "Raleway", sans-serif;
 }
 .body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family-roboto);
   position: relative;
   width: 1440px;
   height: 2592px;
@@ -33,7 +35,7 @@
   color: #404bbf;
 }
 .main-logo-link {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font-family-raleway);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -42,7 +44,7 @@
   text-transform: uppercase;
 }
 .head-logo-link {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font-family-raleway);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -51,7 +53,7 @@
   text-transform: uppercase;
 }
 .footer-logo-link {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font-family-raleway);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -62,7 +64,7 @@
 .menu-link {
   width: 67px;
   height: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family-roboto);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -73,7 +75,7 @@
   font-style: normal;
 }
 .contact {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family-roboto);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -91,25 +93,23 @@
 .hero {
 }
 .main-title {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: var(--font-family-roboto);
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   text-align: center;
   letter-spacing: 0.02em;
-  /* color: #fff; */
+  color: #fff;
 }
 .modal-btn {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: var(--font-family-roboto);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  /* color: #FFF; */
+  color: #FFF;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -120,7 +120,7 @@
 /* ======================ABOUT======================*/
 
 .third-header {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family-roboto);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -128,12 +128,15 @@
   color: var(--second-header-color);
 }
 .about-description {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family-roboto);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--contact-color);
 }
-
 /* ======================/ABOUT======================*/
+
+/* ========================PORTFOLIO=================== */
+
+/* ========================/PORTFOLIO=================== */

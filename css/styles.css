@@ -8,7 +8,6 @@
   --main-text-color: #434455;
   --contact-color: #434455;
 }
-
 .body {
   font-family: "Roboto", sans-serif;
   position: relative;
@@ -23,12 +22,16 @@
 .link {
   text-decoration: none;
 }
+/* ======================COMPONENTS======================*/
+
+/* ======================/COMPONENTS======================*/
+
+/* =====================HEADER===================== */
 
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
 }
-
 .main-logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -38,7 +41,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
 .head-logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -48,7 +50,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
 .footer-logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -58,7 +59,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
 .menu-link {
   width: 67px;
   height: 24px;
@@ -69,11 +69,9 @@
   letter-spacing: 0.02em;
   color: var(--head-logo-color);
 }
-
 .address {
   font-style: normal;
 }
-
 .contact {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -82,8 +80,38 @@
   letter-spacing: 0.02em;
   color: var(--contact-color);
 }
-
 .contact:hover,
 .contact:focus {
   color: #404bbf;
 }
+/* =====================/HEADER===================== */
+.hero {
+}
+.main-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* color: #fff; */
+}
+.modal-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  /* color: #FFF; */
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  color: #4D5AE5;
+}
+/* ======================HERO======================*/
+
+/* ======================/HERO======================*/

@@ -9,8 +9,7 @@
   width: 1440px;
   height: 2592px;
   background: #fff;
-  color: #434455
-
+  color: #434455;
 }
 .list {
   list-style: none;
@@ -19,48 +18,31 @@
   text-decoration: none;
 }
 
-.main-header {
-}
-.main-nav {
-}
-
 .main-logo-link {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.7;
   color: #4d5ae5;
-  width: 44px;
-  height: 21px;
-  letter-spacing: 0.03em
-  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .head-logo-link {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   color: #2e2f42;
-  width: 71px;
-  height: 21px;
-  letter-spacing: 0.03em
-  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .footer-logo-link {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
-  color: #F4F4FD;
-  width: 71px;
-  height: 21px;
-  letter-spacing: 0.03em
-  text-transform: uppercase;
+  line-height: 1.7;
+  color: #f4f4fd;
+  letter-spacing: 0.03em;
 }
 
 .menu {
@@ -71,7 +53,6 @@
   width: 67px;
   height: 24px;
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -86,7 +67,6 @@
   left: 940px;
   top: 24px;
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -99,7 +79,6 @@
   left: 1133px;
   top: 24px;
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;

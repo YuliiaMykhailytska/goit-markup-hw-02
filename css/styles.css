@@ -1,6 +1,11 @@
 :root {
-  --brand-color: ;
-  --background-color: ;
+  --background-color: #fff;
+  --logo-color: #4d5ae5;
+  --head-logo-color: #2e2f42;
+  --footer-logo-color: #f4f4fd;
+  --header-color: #fff;
+  --second-header-color: #2e2f42;
+  --main-text-color: #434455;
 }
 
 .body {
@@ -8,8 +13,7 @@
   position: relative;
   width: 1440px;
   height: 2592px;
-  background: #fff;
-  color: #434455;
+  background: var(--background-color);
 }
 .list {
   list-style: none;
@@ -23,7 +27,7 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #4d5ae5;
+  color: var(--logo-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -33,7 +37,7 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #2e2f42;
+  color: var(--head-logo-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -43,7 +47,7 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #f4f4fd;
+  color:var(--footer-logo-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -58,8 +62,7 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.menu-link {
-}
+
 .contact-mail {
   width: 153px;
   height: 24px;

@@ -65,7 +65,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--head-logo-color);
 }
@@ -76,7 +76,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--contact-color);
 }
@@ -85,6 +85,9 @@
   color: #404bbf;
 }
 /* =====================/HEADER===================== */
+
+/* ======================HERO======================*/
+
 .hero {
 }
 .main-title {
@@ -102,7 +105,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
@@ -112,6 +115,25 @@
 .modal-btn:focus {
   color: #4d5ae5;
 }
-/* ======================HERO======================*/
-
 /* ======================/HERO======================*/
+
+/* ======================ABOUT======================*/
+
+.third-header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--second-header-color);
+}
+.about-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--contact-color);
+}
+
+/* ======================/ABOUT======================*/

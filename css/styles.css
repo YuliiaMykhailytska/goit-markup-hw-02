@@ -13,6 +13,7 @@
   position: relative;
   width: 1440px;
   height: 2592px;
+  color: #434455;
   background: var(--background-color);
 }
 .list {
@@ -20,6 +21,11 @@
 }
 .link {
   text-decoration: none;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
 }
 
 .main-logo-link {
@@ -47,7 +53,7 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color:var(--footer-logo-color);
+  color: var(--footer-logo-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }

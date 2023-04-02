@@ -1,5 +1,6 @@
 /* MAIN PAGE */
 :root {
+  /* main root */
   --background-color: #fff;
   --logo-color: #4d5ae5;
   --head-logo-color: #2e2f42;
@@ -10,6 +11,10 @@
   --contact-color: #434455;
   --font-family-roboto: "Roboto", sans-serif;
   --font-family-raleway: "Raleway", sans-serif;
+
+  /* portfolio root */
+  --portfolio-modal-btn-color: #4d5ae5;
+  --portfolio-modal-btn-background-color: #f4f4fd;
 }
 .body {
   font-family: var(--font-family-roboto);
@@ -103,7 +108,7 @@
   letter-spacing: 0.02em;
   color: #fff;
 }
-.modal-btn {
+.main-modal-btn {
   font-family: var(--font-family-roboto);
   background-color: #4d5ae5;
   font-weight: 500;
@@ -115,8 +120,8 @@
   color: #fff;
   cursor: pointer;
 }
-.modal-btn:hover,
-.modal-btn:focus {
+.main-modal-btn:hover,
+.main-modal-btn:focus {
   color: #4d5ae5;
   background-color: #404bbf;
 }
@@ -208,6 +213,27 @@
 /* =====================/FOOTER===================== */
 /* /MAIN PAGE*/
 
-/* PORTFOLIO */
+/* PORTFOLIO MAIN*/
+/* HEADER ANDFOOTER WERE COPIED FROM INDEX.HTML*/
 
-/* /PORTFOLIO */
+.portfolio-modal-btn:hover,
+.portfolio-modal-btn:focus {
+  color: #fff;
+  background: #404bbf;
+}
+
+.portfolio-modal-btn {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--portfolio-modal-btn-color);
+  background-color: var(--portfolio-modal-btn-background-color);
+  cursor: pointer;
+}
+
+/* /PORTFOLIO MAIN*/

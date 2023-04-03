@@ -1,24 +1,24 @@
 :root {
-  --background-color: #fff;
+  --main-title-color: #ffffff;
+  --background-color: #ffffff;
   --logo-color: #4d5ae5;
   --head-logo-color: #2e2f42;
   --footer-logo-color: #f4f4fd;
-  --header-color: #fff;
+  --header-color: #ffffff;
   --second-header-color: #2e2f42;
   --main-text-color: #434455;
   --contact-color: #434455;
+  --team-section-color: #F4F4FD;
   --font-family-roboto: "Roboto", sans-serif;
   --font-family-raleway: "Raleway", sans-serif;
   --portfolio-modal-btn-color: #4d5ae5;
   --portfolio-modal-btn-background-color: #f4f4fd;
+  --menu-link-color: #404bbf;
 }
 
-.body {
+body {
   font-family: var(--font-family-roboto);
-  position: relative;
-  width: 1440px;
-  height: 2592px;
-  color: #434455;
+  color: var(--main-text-color);
   background: var(--background-color);
 }
 
@@ -37,7 +37,7 @@
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #404bbf;
+  color: var(--menu-link-color);
 }
 
 .main-logo-link {
@@ -107,31 +107,29 @@
 
 .main-title {
   font-family: var(--font-family-roboto);
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: var(--main-title-color);
 }
 
 .main-modal-btn {
   font-family: var(--font-family-roboto);
-  background-color: #4d5ae5;
+  background-color: var(--logo-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: var(--main-title-color);
   cursor: pointer;
 }
 
 .main-modal-btn:hover,
 .main-modal-btn:focus {
-  color: #4d5ae5;
-  background-color: #404bbf;
+  background-color: var(--menu-link-color);
 }
 /* ======================/HERO======================*/
 
@@ -148,7 +146,6 @@
 
 .about-description {
   font-family: var(--font-family-roboto);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -159,7 +156,6 @@
 /* ========================PORTFOLIO=================== */
 .portfolio-second-header {
   font-family: var(--font-family-roboto);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -172,16 +168,15 @@
 
 /* =====================TEAM===================== */
 .team-section {
-  background-color: #f4f4fd;
+  background-color: var(--team-section-color);
 }
 
 .team-list {
-  background-color: #fff;
+  background-color: var(--background-color);
 }
 
 .second-team-header {
   font-family: var(--font-family-roboto);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -202,7 +197,6 @@
 
 .team-description {
   font-family: var(--font-family-roboto);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -218,7 +212,6 @@
 
 .footer-description {
   font-family: var(--font-family-roboto);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -232,8 +225,8 @@
 
 .portfolio-modal-btn:hover,
 .portfolio-modal-btn:focus {
-  color: #fff;
-  background: #404bbf;
+  color: var(--background-color);
+  background: var(--menu-link-color);
 }
 .menu-btn-list {
 }
@@ -265,7 +258,6 @@
 
 .portfolio-description {
   font-family: var(--font-family-roboto);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
